@@ -66,4 +66,3 @@ You can use, modify, fork, redistribute, or sell this software freely.
 
 Henry Knight  
 [GitHub](https://github.com/kdauntln)
-```
