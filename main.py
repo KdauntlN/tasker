@@ -1,7 +1,23 @@
 from rich import print
-from utils import open_app
 
-open_app("Todo", "0.1.0", "help")
+opening_block = """
+[blue bold]===========================================[/blue bold]
+            [green bold]TASKER[/green bold] — [red bold]v1.0.0[/red bold]
+    A simple, fast, plain-text todo app
+[blue bold]===========================================[/blue bold]
+
+Author: Henry Knight
+License: Zero-Clause BSD (0BSD)
+Source: https://github.com/kdauntln/tasker
+
+TASKER is a fully open-source command-line task manager.
+All code is public domain under the 0BSD license.
+You can use, modify, fork, redistribute, or sell it—
+no strings attached.
+
+No telemetry. No cloud sync. No hidden files.
+Just you and your tasks.
+"""
 
 help = [
     "help - display a list of commands",
@@ -20,6 +36,8 @@ commands = [
     "abandon",
     "help"
 ]
+
+print(opening_block)
 
 running = True
 while running:
