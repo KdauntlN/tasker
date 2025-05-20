@@ -1,1 +1,0 @@
-from .intro import open_app
